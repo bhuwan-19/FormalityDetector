@@ -35,10 +35,9 @@ class FeatureEstimator:
 
     def extract_features(self, sent):
 
-        sent = self.preprocessor.parse(sent)['sentences']
         features = {}
         for feats in self.use_features:
-            f = feats.extract(sent)
+            f = feats.extract([sent])
             features.update(f)
 
         return features

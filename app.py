@@ -6,8 +6,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--text', action='store', help='A text string')
-    text = parser.parse_args().title
-
+    text = parser.parse_args().text
     formality_score = FormalityCalculator().calculate_formality_text(text=text)
 
     print(f"Text Formality:{formality_score}")
