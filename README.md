@@ -1,4 +1,4 @@
-## FormalityDetector
+## TextFormality
 
 ## Overview
 
@@ -43,14 +43,11 @@ Also, a pre-trained model and word2vec pre-trained vectors are used for Natural 
         pip3 install -r requirements.txt
         python3 -m nltk.downloader wordnet
     ```
-
-- Please copy the model, which can be downloaded from https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit, 
-into the "utils/model" folder
  
 ## Execution
 
 - Please run the following command in the terminal
 
     ```
-        python3 app.py --text "text string to analyze"
+        python3 app.py
     ```
