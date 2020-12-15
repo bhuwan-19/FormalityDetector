@@ -1,4 +1,4 @@
-## TextFormality
+## TextFormalityClassifier
 
 ## Overview
 
